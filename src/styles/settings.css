@@ -1,0 +1,13 @@
+:root {
+  --primary: #00a9e0;
+  --primary-darken: #05a2d6;
+  --primary-lighter: #b5e6f6;
+  --secondary: #5bc500;
+  --secondary-darken: #53ad03;
+  --dark-text: #5e6167;
+  --light-grey: #eaeaea80;
+}
+
+input:focus {
+  outline: none;
+}

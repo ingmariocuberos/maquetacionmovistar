@@ -1,0 +1,57 @@
+.changenow__telf-and-btn {
+  display: flex;
+  height: 56.15px;
+  top: 239px;
+  left: 50px;
+  justify-content: center;
+}
+
+.changenow__input-telf {
+  width: 308px;
+  border: 1px solid #5e616773;
+  font-family: TelefonicaWeb-Regular;
+  font-size: 25px;
+  padding-left: 35px;
+  height: 57px;
+}
+
+.changenow__telf-and-btn input::placeholder {
+  width: 343px;
+  border: none;
+  font-family: TelefonicaWeb-Regular;
+  font-size: 23px;
+  margin-left: 10px;
+  color: #5e616773;
+}
+
+.changenow__telf-and-btn button {
+  width: 250px;
+  border: none;
+  background-color: var(--secondary);
+  font-family: TelefonicaWeb-Regular;
+  font-weight: bolder;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.changenow__telf-and-btn button:hover {
+  background-color: var(--secondary-darken);
+}
+
+.changenow__row-flex {
+  display: flex;
+  height: 57px;
+  margin-top: 34px;
+}
+
+.changenow__column-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.changenow__terminos {
+  color: var(--dark-text);
+  display: block;
+  margin: 20px auto;
+}

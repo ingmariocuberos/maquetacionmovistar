@@ -1,0 +1,209 @@
+.planinfo__title-quote {
+  font-size: 36px;
+  color: var(--dark-text);
+  font-family: TelefonicaWeb-Regular;
+  width: 1042px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 500;
+}
+
+.planinfo__container-plans {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 54px;
+}
+
+.planinfo__current-plan p:nth-child(1) {
+  margin-top: 26px;
+}
+
+.planinfo__current-plan {
+  width: 308px;
+  height: 320px;
+  background-color: #86888c;
+  border-radius: 5px;
+  border: 1px solid var(--light-grey);
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-family: TelefonicaWeb-Regular;
+  font-weight: 500;
+}
+
+.planinfo__current-plan p:nth-child(2) {
+  font-size: 57px;
+  margin-top: 35px;
+  font-family: TelefonicaWeb-ExtraLight;
+  font-weight: bolder;
+}
+
+.planinfo__current-plan p:nth-child(3) {
+  margin-top: 86px;
+  font-size: 37px;
+}
+
+.planinfo__container-posible-plan {
+  min-width: 358px;
+  width: 925px;
+  background-color: var(--primary);
+  height: 320px;
+  border: 1px solid var(--primary-lighter);
+  color: #fff;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.planinfo__text-posible-plan {
+  margin: 25px 40px 25px 40px;
+  font-size: 30px;
+  font-family: TelefonicaWeb-Regular;
+}
+
+.planinfo__posible-plan {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.planinfo__posible-speed-and-price {
+  width: 330px;
+}
+
+.planinfo__posible-speed-and-price p:nth-child(1) {
+  font-size: 85px;
+  font-family: TelefonicaWeb-Regular;
+  font-weight: 900;
+  margin-top: -9px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.planinfo__posible-speed-and-price p:nth-child(2) {
+  margin-top: 19px;
+  font-size: 17px;
+  font-family: TelefonicaWeb-Regular;
+  font-weight: 500;
+  text-align: center;
+}
+
+.planinfo__posible-speed-and-price p:nth-child(3) {
+  margin-top: 19px;
+  font-size: 37px;
+  font-family: TelefonicaWeb-Regular;
+  font-weight: 500;
+  text-align: center;
+}
+
+.planinfo__flex-advantages {
+  display: flex;
+  flex-wrap: wrap;
+  width: 516px;
+  height: 210px;
+  font-family: TelefonicaWeb-Regular;
+  font-size: 22px;
+}
+
+.planinfo__flex-advantages div {
+  width: 238px;
+  height: 95px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.planinfo__flex-advantages div p {
+  padding: 0;
+  margin: 0;
+}
+
+.planinfo__ilimitated-minutes p:nth-child(1) {
+  font-size: 20px;
+  width: 237px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.planinfo__ilimitated-minutes p:nth-child(2) {
+  font-size: 20px;
+  width: 237px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.planinfo__ilimitated-minutes img {
+  display: block;
+  margin: 0 auto;
+}
+
+.planinfo__screen-insurance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planinfo__screen-insurance p {
+  font-size: 20px;
+}
+
+.planinfo__movistar-play {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.planinfo__movistar-play h5 {
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.planinfo__movistar-play p {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  width: 215px;
+  margin: 0 auto;
+}
+
+.planinfo__napster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.planinfo__napster p {
+  font-size: 20px;
+}
+
+.planinfo__broked-screen {
+  height: 65px;
+  margin-right: 5px;
+}
+
+.planinfo__movistar-mini-icon {
+  width: 48px;
+}
+
+.planinfo__flags {
+  width: 151px;
+}
+
+.planinfo__napster-icon {
+  width: 50px;
+  margin-left: 10px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}

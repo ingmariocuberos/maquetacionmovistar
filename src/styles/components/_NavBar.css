@@ -1,0 +1,74 @@
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* align-items: center; */
+  height: 93px;
+  width: 100%;
+  border-bottom: 2px solid var(--light-grey);
+}
+
+.navbar__links-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 4;
+  align-items: center;
+}
+
+.navbar__btns-container img {
+  margin-right: 31px;
+  cursor: pointer;
+}
+
+.navbar__btns-container {
+  margin-right: 31px;
+}
+
+.navbar__movistar-icon {
+  height: 47px;
+}
+
+.navbar__btn-mi-movistar {
+  height: 45px;
+  width: 125px;
+  color: #fff;
+  background-color: var(--primary);
+  border: 2px solid var(--primary-lighter);
+  border-radius: 5px;
+  font-family: TelefonicaWeb-Regular;
+  font-size: 18px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.navbar__btn-mi-movistar:hover {
+  background-color: var(--primary-darken);
+}
+
+.navbar__principal-menu {
+  display: flex;
+  margin-left: 47px;
+}
+
+.navbar__li-link {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 75px;
+}
+
+.navbar__li-link a {
+  text-decoration: none;
+  font-family: TelefonicaWeb-Regular;
+  font-weight: bolder;
+  color: #5e6167b3;
+  font-size: 17px;
+}
+
+.navbar__li-link a:focus {
+  color: var(--dark-text);
+}
+
+.navbar__icon {
+  width: 30px;
+}

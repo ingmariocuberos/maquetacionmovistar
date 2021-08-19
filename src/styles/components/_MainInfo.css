@@ -1,0 +1,91 @@
+.maininfo__container {
+  width: 100%;
+  height: 485.23px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.maininfo__wave {
+  position: absolute;
+  z-index: 0;
+}
+
+.maininfo__movistar-man {
+  position: relative;
+  left: 65px;
+  z-index: 10;
+}
+
+.maininfo__container-change-now {
+  position: absolute;
+  top: 29.08px;
+  left: 364.28px;
+}
+
+.maininfo__container-change-now h1 {
+  font-size: 72px;
+  width: 688.3px;
+  text-align: center;
+  color: #fff;
+  font-family: TelefonicaWeb-ExtraLight;
+}
+
+.maininfo__telf-and-btn {
+  display: flex;
+  position: absolute;
+  height: 56.15px;
+  top: 239px;
+  left: 50px;
+}
+
+.maininfo__telf-and-btn input {
+  width: 308px;
+  border: none;
+  font-family: TelefonicaWeb-Regular;
+  font-size: 25px;
+  padding-left: 35px;
+}
+
+.maininfo__telf-and-btn input::placeholder {
+  width: 343px;
+  border: none;
+  font-family: TelefonicaWeb-Regular;
+  font-size: 23px;
+  margin-left: 10px;
+  color: #5e616773;
+}
+
+.maininfo__telf-and-btn button {
+  width: 250px;
+  border: none;
+  background-color: var(--secondary);
+  font-family: TelefonicaWeb-Regular;
+  font-weight: bolder;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.maininfo__telf-and-btn button:hover {
+  background-color: var(--secondary-darken);
+}
+
+.maininfo__new-plan {
+  position: absolute;
+  right: 109px;
+  top: 202px;
+}
+
+.maininfo__terminos {
+  color: #fff;
+  display: flex;
+  position: absolute;
+  top: 75px;
+  left: -90px;
+  z-index: 100;
+  justify-content: start;
+}
+
+.maininfo__terminos label {
+  margin-left: -130px;
+}
