@@ -13,7 +13,7 @@ export const ChangeNow = () => {
                     </div>
                     
                     <div className="changenow__terminos">
-                        <input type="checkbox" id="cbox2" value="changenow__terminos" /> <label for="cbox2">Acepto <u>términos y condiciones</u> y autorizo el tratamiento de datos personales </label>
+                        <input type="checkbox" id="cbox3" value="changenow__terminos" /> <label htmlFor="cbox3"> Acepto <u>términos y condiciones</u> y autorizo el tratamiento de datos personales </label>
                     </div>
                 </div>    
             </div>

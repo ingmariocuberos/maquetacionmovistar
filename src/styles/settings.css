@@ -5,9 +5,18 @@
   --secondary: #5bc500;
   --secondary-darken: #53ad03;
   --dark-text: #5e6167;
+  --grey: #eaeaea;
   --light-grey: #eaeaea80;
 }
 
 input:focus {
   outline: none;
+}
+
+.me-2 {
+  margin-right: 10px;
+}
+
+.me-3 {
+  margin-right: 15px;
 }

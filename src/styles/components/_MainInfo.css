@@ -13,7 +13,12 @@
 .maininfo__movistar-man {
   position: relative;
   left: 65px;
+  top: -20px;
   z-index: 10;
+  mask: url("../../resources/principal-wave.png") -67px 20px;
+  object-fit: cover;
+  height: 461.67px;
+
 }
 
 .maininfo__container-change-now {
@@ -23,17 +28,24 @@
 }
 
 .maininfo__container-change-now h1 {
+  position: relative;
   font-size: 72px;
   width: 688.3px;
   text-align: center;
   color: #fff;
+  left: 70px;
   font-family: TelefonicaWeb-ExtraLight;
 }
 
 .maininfo__telf-and-btn {
   display: flex;
   position: absolute;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
   height: 56.15px;
+  width: 100%;
   top: 239px;
   left: 50px;
 }
@@ -44,6 +56,13 @@
   font-family: TelefonicaWeb-Regular;
   font-size: 25px;
   padding-left: 35px;
+  min-height: 50px;
+  max-width: 70vw;
+  z-index: 20;
+}
+
+#cbox2 {
+  min-height: 20px;
 }
 
 .maininfo__telf-and-btn input::placeholder {
@@ -63,6 +82,7 @@
   font-weight: bolder;
   font-size: 25px;
   color: #fff;
+  min-height: 50px;
   cursor: pointer;
 }
 
@@ -79,13 +99,166 @@
 .maininfo__terminos {
   color: #fff;
   display: flex;
+  flex-wrap: nowrap;
   position: absolute;
   top: 75px;
   left: -90px;
   z-index: 100;
-  justify-content: start;
+  justify-content: center;
 }
 
 .maininfo__terminos label {
   margin-left: -130px;
+}
+
+
+@media all and (max-width: 1445px) {
+  .maininfo__wave {
+    position: absolute;
+    z-index: 0;
+    width: 1445px;
+    min-width: 1445px;
+    min-height: 461.67px;
+    height: 461.67px;
+  }
+
+  .maininfo__telf-and-btn {
+    margin-top: 10px;
+    flex-direction: column;
+    z-index: 20;
+  }
+
+  .maininfo__movistar-man {
+    left: 15px;
+    height: 461.67px;
+  }
+
+  .maininfo__container-change-now h1 {
+    left: 30px;
+  }
+
+  .maininfo__telf-and-btn {
+    left: 20px;
+  }
+  .maininfo__movistar-man {
+    position: relative;
+    left: 65px;
+    top: -20px;
+    z-index: 10;
+    mask: url("../../resources/principal-wave.png") -67px 20px;
+    object-fit: cover;
+
+  }
+}
+
+@media all and (max-width: 1332px) {
+  .maininfo__wave {
+    display: none;
+  }
+  .maininfo__container {
+    background-color: var(--primary);
+    height: calc(100vh - 93px);
+    max-height: 540px;
+    width: 100vw;
+  }
+
+  .maininfo__container-change-now {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .maininfo__container-change-now h1 {
+    display: block;
+    margin: 0px auto;
+    font-size: 52px;
+    top: -55.08px;
+    left: 0px;
+    margin-top: 0px;
+    width: 90vw;
+    text-align: center;
+    color: #fff;
+    font-family: TelefonicaWeb-ExtraLight;
+    font-weight: 100;
+  }
+
+  .maininfo__telf-and-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 56.15px;
+    top: 0px;
+    left: 0px;
+  }
+
+  .maininfo__telf-and-btn h1 {
+    width: 90vw;
+    padding: 0 10px;
+  }
+
+  .maininfo__new-plan {
+    position: absolute;
+    right: 109px;
+    top: 400px;
+    width: 180px;
+    z-index: 200;
+  }
+
+  .maininfo__terminos {
+    position: relative;
+    margin-top: -70px;
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .maininfo__movistar-man {
+    position: relative;
+    top: 0px;
+    z-index: 10;
+    mask: none;
+    height: 100vh;
+    object-fit: cover;
+    max-height: 540px;
+    left: calc(50vw - 283.5px);
+  }
+}
+
+@media all and (max-width: 941px) {
+  #maininfo__star-link {
+    display: none;
+  }
+
+  #maininfo__star-link img {
+    display: none;
+  }
+
+  .maininfo__movistar-man {
+    left: 0px;
+    z-index: 10;
+
+  }
+  .maininfo__terminos {
+    width: 100vw;
+    margin-left: 50px !important;
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .maininfo__container-change-now h1 {
+    font-size: 45px;
+  }
+
+  .maininfo__terminos input {
+    margin-right: 70px;
+    padding-left: 15px;
+  }
 }

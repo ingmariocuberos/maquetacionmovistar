@@ -5,7 +5,7 @@ import '../styles/components/_PlanInfo.css';
 export const PlanInfo = () => {
     return (
         <>
-            <h2 className="planinfo__title-quote">Nuevo plan con muchas más Gigas en 4G/3G, minutos ilimitados <br/> a todo operador, video, música y servicios que hacen más fácil tu vida</h2>
+            <h2 className="planinfo__title-quote">Nuevo plan con muchas más Gigas en 4G/3G, minutos ilimitados a todo operador, video, música y servicios que hacen más fácil tu vida</h2>
 
             <section aria-label="Nuevos beneficios y planes movistar" className="planinfo__container-plans">
                 <div className="planinfo__current-plan">

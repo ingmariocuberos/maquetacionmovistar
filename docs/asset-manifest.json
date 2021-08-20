@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.1830c4ca.chunk.css",
-    "main.js": "/static/js/main.c64e3550.chunk.js",
-    "main.js.map": "/static/js/main.c64e3550.chunk.js.map",
+    "main.css": "/static/css/main.f5cc0d84.chunk.css",
+    "main.js": "/static/js/main.ac892493.chunk.js",
+    "main.js.map": "/static/js/main.ac892493.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.70cdae86.js",
     "runtime-main.js.map": "/static/js/runtime-main.70cdae86.js.map",
     "static/js/2.02146852.chunk.js": "/static/js/2.02146852.chunk.js",
     "static/js/2.02146852.chunk.js.map": "/static/js/2.02146852.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1830c4ca.chunk.css.map": "/static/css/main.1830c4ca.chunk.css.map",
-    "static/js/2.02146852.chunk.js.LICENSE.txt": "/static/js/2.02146852.chunk.js.LICENSE.txt"
+    "static/css/main.f5cc0d84.chunk.css.map": "/static/css/main.f5cc0d84.chunk.css.map",
+    "static/js/2.02146852.chunk.js.LICENSE.txt": "/static/js/2.02146852.chunk.js.LICENSE.txt",
+    "static/media/_MainInfo.css": "/static/media/principal-wave.5e034565.png"
   },
   "entrypoints": [
     "static/js/runtime-main.70cdae86.js",
     "static/js/2.02146852.chunk.js",
-    "static/css/main.1830c4ca.chunk.css",
-    "static/js/main.c64e3550.chunk.js"
+    "static/css/main.f5cc0d84.chunk.css",
+    "static/js/main.ac892493.chunk.js"
   ]
 }

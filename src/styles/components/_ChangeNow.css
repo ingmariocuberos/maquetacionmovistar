@@ -21,6 +21,7 @@
   font-family: TelefonicaWeb-Regular;
   font-size: 23px;
   margin-left: 10px;
+  min-height: 50px;
   color: #5e616773;
 }
 
@@ -31,6 +32,7 @@
   font-family: TelefonicaWeb-Regular;
   font-weight: bolder;
   font-size: 25px;
+  min-height: 50px;
   color: #fff;
   cursor: pointer;
 }
@@ -54,4 +56,23 @@
   color: var(--dark-text);
   display: block;
   margin: 20px auto;
+}
+
+@media all and (max-width: 589px) {
+  .changenow__row-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .changenow__column-flex {
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+
+  .changenow__row-flex input {
+    left: 0;
+    max-width: 80vw;
+  }
 }

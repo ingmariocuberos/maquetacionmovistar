@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* align-items: center; */
   height: 93px;
   width: 100%;
   border-bottom: 2px solid var(--light-grey);
@@ -45,6 +44,10 @@
   background-color: var(--primary-darken);
 }
 
+.navbar__responsive-menu {
+  display: none;
+}
+
 .navbar__principal-menu {
   display: flex;
   margin-left: 47px;
@@ -70,5 +73,104 @@
 }
 
 .navbar__icon {
-  width: 30px;
+  height: 35px;
+}
+
+@media all and (max-width: 990px) {
+  .navbar__movistar-icon {
+    display: block;
+  }
+}
+
+@media all and (max-width: 1339px) {
+  .navbar__li-link {
+    margin-right: 35px;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .navbar__li-link {
+    margin-right: 15px;
+  }
+  .navbar__principal-menu {
+    display: flex;
+    margin-left: 17px;
+  }
+}
+
+/* transición cambio de menú */
+@media all and (max-width: 1116px) {
+  .navbar__links-container,
+  .navbar__btns-container {
+    display: none;
+  }
+
+  .navbar__responsive-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 93px;
+    background-color: transparent;
+  }
+
+  .navbar__responsive-container-movistar-icon {
+    display: block;
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .navbar__responsive-movistar-icon {
+    height: 47px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .navbar__responsive-menu-options {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar__responsive-icon {
+    height: 30px;
+  }
+
+  .navbar__responsive-btn-mi-movistar {
+    height: 42px;
+    width: 125px;
+    color: #fff;
+    background-color: var(--primary);
+    border: 2px solid var(--primary-lighter);
+    border-radius: 5px;
+    font-family: TelefonicaWeb-Regular;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  .navbar__responsive-btn-mi-movistar:focus {
+    background-color: var(--primary-darken);
+  }
+
+  .navbar__responsive-btn-menu {
+    height: 32px;
+    width: 70px;
+    color: var(--dark-text);
+    background-color: transparent;
+    border: 1px solid var(--dark-text);
+    border-radius: 5px;
+    font-family: TelefonicaWeb-Regular;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .navbar__responsive-btn-menu:focus {
+    background-color: var(--light-grey);
+  }
+
+  .navbar__ocultar {
+    display: none;
+  }
 }
